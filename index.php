@@ -25,7 +25,7 @@ $comment_array = array();
 
 <header>
     <h1>社員一覧</h1>
-    <p>あいうえお</p>
+    <p>あいうえおpppppp</p>
 </header>
     
 
