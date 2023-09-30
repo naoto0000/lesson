@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: black;
+    height: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    padding-left: 60px;
+}
+
+table{
+    margin-left: 60px;
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+
+th,td{
+    border: solid 1px black;
+    margin: 0;
+}
+
+th{
+    background-color: #444;
+    color: white;
+}
+
+td{
+    padding-left: 10px;
+}
