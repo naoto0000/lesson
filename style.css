@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,p {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+header{
+    background-color: black;
+    height: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    padding-left: 60px;
+}
+
+/* 検索部分 */
+.search{
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.search label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.search input{
+    height: 35px;
+    margin-right: 10px;
+}
+
+.input_name{
+    width: 230px;
+}
+
+.select_sex{
+    height: 35px;
+    margin-right: 10px; 
+}
+
+.select_sex:hover{
+    cursor: pointer;
+}
+
+
+.search_submit{
+    color: white;
+    background-color: #444;
+}
+
+.search_submit:hover{
+    cursor: pointer;
+}
+
+/* 表示部分 */
+table{
+    margin-left: 60px;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th,td{
+    border: solid 1px black;
+    margin: 0;
+    height: 40px;
+}
+
+th{
+    background-color: #444;
+    color: white;
+}
+
+td{
+    padding-left: 10px;
+}
+
+.search_none{
+    margin-left: 70px;
+}
