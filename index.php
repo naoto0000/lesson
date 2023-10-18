@@ -85,6 +85,7 @@ require_once('function.php');
             <td><?php echo $age; ?></td>
             <td><?php echo $employee['birthdate']; ?></td>
         </tr>
+        
 
     <?php endforeach; ?>
     </table>

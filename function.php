@@ -13,5 +13,4 @@ $base_sql = "SELECT * FROM `employees`";
 $employees = $pdo->query($base_sql);
 
 
-
 ?>
