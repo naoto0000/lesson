@@ -94,3 +94,127 @@ td{
 .search_none{
     margin-left: 70px;
 }
+
+
+/* ページネーション関連 */
+
+a.page_number:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.pagenation{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.page_feed{
+    width: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #b8b8b8;
+    color: black;
+}
+
+.first_last_page{
+    width: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #dddddd;
+    color: black;  
+}
+
+.page_number{
+    width: 30px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #b8b8b8;
+    color: black;  
+}
+
+.now_page_number{
+    width: 30px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #dddddd;
+    color: black;  
+    font-weight: bold;
+}
+
+.from_to {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 登録画面 */
+.regi_class{
+    width: 100%;
+    height: 100px;
+    margin: 0 0 25px 40px;
+    display: flex;
+    flex-flow: column;
+}
+
+.regi_indi{
+    display: flex;
+    justify-content:left;
+}
+
+.indi_mes{
+    color: red;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+
+.regi_label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.regi_name{
+    width: 200px;
+    height: 40px;
+}
+
+.regi_sex{
+    width: 60px;
+    height: 40px;
+}
+
+.regi_birth{
+    width: 200px;
+    height: 40px;
+}
+
+.regi_submit{
+    height: 40px;
+    width: 50px;
+    margin-left: 40px;
+    color: white;
+    background-color: #444;
+}
+
+.regi_submit:hover{
+    cursor: pointer;
+}
+
+.indi{
+    color: red;
+}
+
+/* 編集関連 */
+.edit_button{
+    background-color: #444;
+    width: 50px;
+    height: 27px;
+}
+
+.edit_link{
+    color: white;
+}
